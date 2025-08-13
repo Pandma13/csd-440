@@ -1,3 +1,4 @@
+<?php
 /**
  * Megan Wheeler
  * CSD 440
@@ -7,6 +8,7 @@
  * This program is a simple hello world program.
  *
 */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +20,7 @@
 <body>
     <?php
 
-    echo "<p>Hello World!</p>";
+    echo "<h1>Hello World!</h1>";
 
     ?>
 </body>
