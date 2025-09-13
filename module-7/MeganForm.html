@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megan Form</title>
+  </head>
+  <body>
+    <h1>Megan Form</h1>
+    <form action="MeganForm.php" method="POST">
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" /></br></br>
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" /></br></br>
+
+      <label for="message">Message: </label></br>
+      <textarea id="message" name="message" style="width: 500px; height: 100px;"></textarea></br></br>
+
+      <label for="favoriteAnimal">Favorite Animal: </label>
+      <input type="text" id="favoriteAnimal" name="favoriteAnimal" /></br></br>
+
+      <label for="backgroundColour">Background Colour: </label>
+      <select name="backgroundColour" id="backgroundColour">
+        <option value="white">White</option><!--  (default) -->
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select></br></br>
+
+      <label for="fontColour">Font Colour: </label>
+        <input type="radio" name="fontColour" value="black" checked>Black</input><!--  (default) -->
+        <input type="radio" name="fontColour" value="orange">Orange</input>
+        <input type="radio" name="fontColour" value="yellow">Yellow</input>
+        <input type="radio" name="fontColour" value="purple">Purple</input></br></br>
+
+      <label for="fontSize">Font Size: </label>
+        <input type="range" id="fontSize" name="fontSize" min="10" max="50" value="16"></br></br>
+
+      <button type="submit">Submit</button></br></br>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
